@@ -2,7 +2,7 @@
 
 ![GoLang Icon](https://golang.org/doc/gopher/gophercolor.png)
 
-The project is a simple web server implemented in GoLang. It serves a static HTML page (index.html) along with associated CSS (styles.css) and image (001.gif) files from a static directory. This server demonstrates basic routing and static file serving capabilities using Go's built-in HTTP server functionalities.
+The project is a simple web server implemented in GoLang. It serves a static HTML page (index.html) files from a static directory. This server demonstrates basic routing and static file serving capabilities using Go's built-in HTTP server functionalities.
 
 
 ## Installation
@@ -33,15 +33,11 @@ projeto/
 ├── main.go
 └── static/
     ├── index.html
-    ├── styles.css
-    └── 001.gif
 ```
 
 - `main.go`: Main Go file containing the server code.
 - `static/`: Folder containing static files served by the server.
   - `index.html`: Main HTML file served at the root endpoint.
-  - `styles.css`: CSS file for styling.
-  - `001.gif`: Sample image file.
 
 ## Contributing
 
